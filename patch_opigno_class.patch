@@ -1,0 +1,34 @@
+diff --git a/opigno_class/config/install/media.type.image.yml b/opigno_class/config/install/media.type.image.yml
+deleted file mode 100644
+index 3a53b77..0000000
+--- a/opigno_class/config/install/media.type.image.yml
++++ /dev/null
+@@ -1,12 +0,0 @@
+-langcode: en
+-status: true
+-dependencies: {  }
+-id: image
+-label: Image
+-description: 'Use local images for reusable media.'
+-source: image
+-queue_thumbnail_downloads: false
+-new_revision: true
+-source_configuration:
+-  source_field: field_media_image
+-field_map: {  }
+diff --git a/opigno_class/config/install/user.role.administrator.yml b/opigno_class/config/install/user.role.administrator.yml
+deleted file mode 100644
+index e59def8..0000000
+--- a/opigno_class/config/install/user.role.administrator.yml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-langcode: en
+-status: true
+-dependencies: {  }
+-id: administrator
+-label: Administrator
+-weight: -4
+-is_admin: true
+-permissions: {  }
+-- 
+2.37.1.windows.1
