@@ -1,0 +1,26 @@
+diff --git a/opigno_module.info.yml b/opigno_module.info.yml
+index 1234567..890abcd 100644
+--- a/opigno_module.info.yml
++++ b/opigno_module.info.yml
+@@ -6,7 +6,7 @@ core_version_requirement: ^9 || ^10
+ package: Opigno
+ dependencies:
+   - h5p:h5p
+-  - drupal:pdf
++  - drupal:pdf:1.2
+   - drupal:opigno_skills_system
+
+ # Information added by Drupal.org packaging script on 2022-11-13
+diff --git a/composer.json b/composer.json
+index 1234567..890abcd 100644
+--- a/composer.json
++++ b/composer.json
+@@ -7,7 +7,7 @@
+   "homepage": "http://drupal.org/project/opigno_module",
+   "license": "GPL-2.0+",
+   "require": {
+-      "drupal/pdf": "1.x-dev#ec8d13d"
++      "drupal/pdf": "^1.2"
+   },
+   "minimum-stability": "dev"
+ }
