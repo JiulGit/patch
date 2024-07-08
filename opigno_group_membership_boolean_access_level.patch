@@ -2,7 +2,7 @@ diff --git a/web/modules/contrib/opigno_learning_path/src/Plugin/views/filter/Op
 index 1234567..89abcdef 100644
 --- a/web/modules/contrib/opigno_learning_path/src/Plugin/views/filter/OpignoGroupMembershipBoolean.php
 +++ b/web/modules/contrib/opigno_learning_path/src/Plugin/views/filter/OpignoGroupMembershipBoolean.php
-@@ -16,7 +16,7 @@ class OpignoGroupMembershipBoolean extends BooleanOperator {
+@@ -13,7 +13,7 @@ class OpignoGroupMembershipBoolean extends BooleanOperator {
  
    public $no_operator = TRUE;
  
@@ -11,3 +11,4 @@ index 1234567..89abcdef 100644
      // We don't need any operators.
      return [];
    }
+
