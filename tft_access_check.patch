@@ -1,0 +1,16 @@
+diff --git a/tft/tft.module b/tft/tft.module
+index bfb083b..f3bc947 100644
+--- a/tft/tft.module
++++ b/tft/tft.module
+@@ -664,7 +664,7 @@ function tft_file_access(EntityInterface $entity, $operation, AccountInterface $
+   $fid = $entity->get('fid')->getValue();
+   $query = \Drupal::entityQuery('media')
+     ->condition('tft_file', $fid[0]['value']);
+-  $entity_id = array_values($query->execute());
++  $entity_id = array_values($query->accessCheck(TRUE)->execute());
+   if (isset($entity_id[0])) {
+     $media = Media::load($entity_id[0]);
+   }
+-- 
+2.37.1.windows.1
+
